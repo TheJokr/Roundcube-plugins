@@ -98,9 +98,9 @@ class multiple_smtp_server extends rcube_plugin
         }
 
         // Get session values
-        $imap_host = $_SESSION['imap_host'];
-        $imap_port = $_SESSION['imap_port'];
-        $imap_ssl = $_SESSION['imap_ssl'];
+        $imap_host = $_SESSION['storage_host'];
+        $imap_port = $_SESSION['storage_port'];
+        $imap_ssl = $_SESSION['storage_ssl'];
         $username = $_SESSION['username'];
         $password = $_SESSION['password'];
 
